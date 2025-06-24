@@ -4,7 +4,7 @@ import "./Navbar.css"; // for glass effect
 
 const navLinks = [
   { name: "Home", href: "#home" },
-  { name: "Tech", href: "#tech" },
+  { name: "Skills", href: "#tech" },
   { name: "Experience", href: "#experience" },
   { name: "Projects", href: "#projects" },
   { name: "Contact", href: "#contact" },

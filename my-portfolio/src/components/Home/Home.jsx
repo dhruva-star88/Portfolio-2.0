@@ -11,7 +11,7 @@ export default function Hero() {
         <img
           src="/profile.jpg" // <-- Update with your own image path!
           alt="Dhruva Teja D R"
-          className="w-48 h-48 object-cover rounded-full shadow-2xl border-4 border-[#2e2653] mx-auto"
+          className="w-64 h-64 object-cover rounded-full shadow-2xl border-4 border-[#2e2653] mx-auto" // Increased from w-48 h-48 to w-64 h-64
           style={{
             boxShadow:
               "0 0 0 8px rgba(79,47,166,0.10), 0 4px 32px 0 rgba(0,0,0,0.25)",
