@@ -19,7 +19,7 @@ const socialLinks = [
 
 export default function Navbar() {
   return (
-    <nav className="navbar-glass fixed w-full z-50 top-0 left-0 flex items-center justify-between px-10 py-3 font-sans">
+    <nav className="navbar-glass fixed w-full z-50 top-0 left-0 flex items-center justify-between px-10 py-5 font-sans">
       {/* Left: Logo */}
       <div className="text-3xl font-extrabold select-none bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text tracking-widest">
         Portfolio
