@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 export default function Hero() {
   return (
     <section
@@ -13,13 +15,6 @@ export default function Hero() {
         .animate-pulse-slow {
           animation: pulse-slow 4s infinite;
         }
-        @keyframes spin-slow {
-          0% { transform: rotate(0deg);}
-          100% { transform: rotate(360deg);}
-        }
-        .animate-spin-slow {
-          animation: spin-slow 12s linear infinite;
-        }
       `}</style>
 
       {/* Glowing animated gradient background */}
@@ -29,8 +24,20 @@ export default function Hero() {
 
       {/* Profile image with floating animated ring */}
       <div className="relative mb-8 z-20 flex items-center justify-center">
-        {/* Animated ring */}
-        <span className="absolute inset-0 rounded-full border-4 border-purple-400/50 animate-spin-slow pointer-events-none" />
+        {/* Animated ring using framer-motion */}
+        <motion.span
+          className="absolute inset-0 rounded-full border-4 border-purple-400/50 pointer-events-none"
+          animate={{
+            rotate: 360,
+            scale: [1, 1.05, 1],
+            opacity: [0.7, 0.4, 0.7],
+          }}
+          transition={{
+            duration: 8,
+            repeat: Infinity,
+            ease: "easeInOut",
+          }}
+        />
         {/* Profile image */}
         <img
           src="/me.jpg" // <-- Update with your own image path!
@@ -47,11 +54,6 @@ export default function Hero() {
       <h1 className="text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-blue-400 to-pink-400 text-transparent bg-clip-text drop-shadow-lg z-20">
         Dhruva Teja D R
       </h1>
-
-      {/* Title */}
-      {/* <h2 className="text-3xl md:text-4xl font-semibold mt-2 bg-gradient-to-r from-pink-400 to-blue-400 text-transparent bg-clip-text z-20">
-        Web Developer
-      </h2> */}
 
       {/* Short intro */}
       <p className="text-gray-200 max-w-4xl mt-6 text-lg md:text-xl font-medium z-20 tracking-wide leading-relaxed text-justify">
