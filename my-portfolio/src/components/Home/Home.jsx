@@ -49,14 +49,13 @@ export default function Hero() {
       </h1>
 
       {/* Title */}
-      <h2 className="text-3xl md:text-4xl font-semibold mt-2 bg-gradient-to-r from-pink-400 to-blue-400 text-transparent bg-clip-text z-20">
+      {/* <h2 className="text-3xl md:text-4xl font-semibold mt-2 bg-gradient-to-r from-pink-400 to-blue-400 text-transparent bg-clip-text z-20">
         Web Developer
-      </h2>
+      </h2> */}
 
       {/* Short intro */}
-      <p className="text-gray-200 max-w-2xl mt-6 text-lg md:text-xl font-medium z-20">
-        Hey there! I’m a Computer Science Engineering student from Bangalore and a web developer driven by curiosity and creativity.
-        I build sleek, functional, and scalable web apps using modern technologies.
+      <p className="text-gray-200 max-w-4xl mt-6 text-lg md:text-xl font-medium z-20 tracking-wide leading-relaxed text-justify">
+        Computer Science Engineering student from Bangalore, focused on web development and AI/ML. I combine cutting-edge tech with creativity to build fast, intelligent, and reliable applications. I’m energized by tackling tough problems and turning innovative concepts into real products.
       </p>
     </section>
   );
