@@ -11,3 +11,26 @@
 body {
   @apply min-h-screen bg-gradient-to-b from-black via-black to-[#4F2FA6] font-sans;
 }
+
+/* Works on Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 10px;
+  background: #191728;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #a78bfa 0%, #7c3aed 100%);
+  border-radius: 8px;
+  border: 2px solid #191728;
+}
+
+::-webkit-scrollbar-track {
+  background: #191728;
+  border-radius: 8px;
+}
+
+/* Firefox */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #a78bfa #191728;
+}
