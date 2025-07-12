@@ -3,15 +3,15 @@ import { FaGithub } from "react-icons/fa";
 const projects = [
   {
     name: "Vogue Virtue",
-    image: "/budgetbuddy.png",
+    image: "/vv.png",
     tech: ["DjangoRestAPI", "React Js", "Typescript", "Random Forest Classifier", "Tailwind CSS", "Img2Vec", "Python" ],
     description:
       "Vogue Virtue is an AI-powered fashion recommendation system that analyzes user-uploaded clothing images to suggest stylish outfit combinations",
-    github: "https://github.com/yourusername/budget-buddy",
+    github: "https://github.com/dhruva-star88/Vogue-Virtue",
   },
   {
     name: "Ping Now",
-    image: "/decisionengine.png",
+    image: "/chat.png",
     tech: ["React Js", "Javascript", "MongoDb", "Node.js", "Express.js", "Sockets.io"],
     description:
       "Ping Now is a real-time messaging app that connects users instantly for seamless communication and quick interactions.",
@@ -19,19 +19,35 @@ const projects = [
   },
   {
     name: "Farm Fleet",
-    image: "/weatherapp.png",
+    image: "/farm.png",
     tech: ["Javascript", "TailwindCSS", "Django", "SQLite3", "ChartJs"],
     description:
       "Farmfleet is a comprehensive farm management system that streamlines crop scheduling, resource allocation, and real-time productivity tracking for efficient agricultural operations.",
     github: "https://github.com/dhruva-star88/FarmFleet.git",
   },
   {
-    name: "Edumax",
-    image: "/edumax.png",
-    tech: ["React Js", "Node Js", "Express Js", "MongoDb", "Recoil", "Tailwind CSS"],
+    name: "Alert Cam",
+    image: "/cam.jpg",
+    tech: ["Streamlit", "Python", "OpenCV"],
     description:
-      "A full-stack web app to manage education workflows.",
-    github: "https://github.com/yourusername/edumax",
+      "Aert Cam is a smart surveillance system that captures motion-triggered images and instantly sends them as email notifications for real-time monitoring.",
+    github: "https://github.com/dhruva-star88/Webcam-detection",
+  },
+  {
+    name: "TubeSift",
+    image: "/scrape.jpeg",
+    tech: ["Python", "YouTube Data API v3", "Pandas" ],
+    description:
+      "TubeSift is a powerful API-based tool that efficiently scrapes and extracts valuable data from YouTube for analytics and insights.",
+    github: "https://github.com/dhruva-star88/Youtube-scraping-through-API.git",
+  },
+  {
+    name: "AstroSnap",
+    image: "/astro.png",
+    tech: ["Python", "Streamlit", "Requests" ],
+    description:
+      "TAstroSnap fetches and showcases breathtaking daily astronomy images, bringing the wonders of the universe right to your screen.",
+    github: "https://github.com/dhruva-star88/Astronomy-image-of-the-day",
   },
 ];
 
