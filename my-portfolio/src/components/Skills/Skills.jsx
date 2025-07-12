@@ -26,9 +26,9 @@ export default function Skills() {
                     src={skill.src}
                     alt={skill.name}
                     className="w-8 h-8 object-contain" // Increased from w-6 h-6 to w-10 h-10
-                    // style={{
-                    //   filter: `drop-shadow(0 0 6px ${skill.color})`
-                    // }}
+                    style={{
+                      filter: `drop-shadow(0 0 6px ${skill.color})`
+                    }}
                   />
                   <span className="text-lg text-white font-medium">{skill.name}</span>
                 </div>

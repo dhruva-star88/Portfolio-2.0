@@ -2,28 +2,28 @@ import { FaGithub } from "react-icons/fa";
 
 const projects = [
   {
-    name: "Budget Buddy",
+    name: "Vogue Virtue",
     image: "/budgetbuddy.png",
-    tech: ["Next Js", "React Js", "Typescript", "Gemini AI", "PostgreSQL"],
+    tech: ["DjangoRestAPI", "React Js", "Typescript", "Random Forest Classifier", "Tailwind CSS", "Img2Vec", "Python" ],
     description:
-      "A finance tracker web app to manage personal finances efficiently.",
+      "Vogue Virtue is an AI-powered fashion recommendation system that analyzes user-uploaded clothing images to suggest stylish outfit combinations",
     github: "https://github.com/yourusername/budget-buddy",
   },
   {
-    name: "Decision Engine",
+    name: "Ping Now",
     image: "/decisionengine.png",
-    tech: ["React Js", "Javascript", "MongoDb", "Node.js", "Express.js", "ShadCn"],
+    tech: ["React Js", "Javascript", "MongoDb", "Node.js", "Express.js", "Sockets.io"],
     description:
-      "A rule engine that lets users create, validate, and visualize rules.",
-    github: "https://github.com/yourusername/decision-engine",
+      "Ping Now is a real-time messaging app that connects users instantly for seamless communication and quick interactions.",
+    github: "https://github.com/dhruva-star88/PingNow.git",
   },
   {
-    name: "Real Time Weather Processing Application",
+    name: "Farm Fleet",
     image: "/weatherapp.png",
-    tech: ["React Js", "Typescript", "Node.js", "Express.js", "Redis", "Socket.io"],
+    tech: ["Javascript", "TailwindCSS", "Django", "SQLite3", "ChartJs"],
     description:
-      "Live weather app with alerts for metro cities based on user thresholds.",
-    github: "https://github.com/yourusername/weather-app",
+      "Farmfleet is a comprehensive farm management system that streamlines crop scheduling, resource allocation, and real-time productivity tracking for efficient agricultural operations.",
+    github: "https://github.com/dhruva-star88/FarmFleet.git",
   },
   {
     name: "Edumax",

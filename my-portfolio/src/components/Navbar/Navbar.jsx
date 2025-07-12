@@ -1,6 +1,6 @@
 // src/components/Navbar.jsx
 import { useState } from "react";
-import { FaLinkedin, FaGithub, FaTwitter, FaBars, FaTimes } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaTwitter, FaInstagram, FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css"; // for glass effect
 
 const navLinks = [
@@ -16,6 +16,7 @@ const socialLinks = [
   { icon: <FaLinkedin />, href: "https://www.linkedin.com/in/dhruva-teja-d-r/", label: "LinkedIn" },
   { icon: <FaGithub />, href: "https://github.com/dhruva-star88", label: "GitHub" },
   { icon: <FaTwitter />, href: "https://x.com/24Dhruvvv91499", label: "Twitter" },
+  { icon: <FaInstagram />, href: "https://www.instagram.com/_dhruva_dr_/", label: "Instagram" },
 ];
 
 export default function Navbar() {
